@@ -2,14 +2,21 @@
 
 Feature
 
+<h3 align="center">Installation</h3>
+
+  ```html
+wget https://github.com/johndesu090/johndesu090.github.io/raw/master/deb9.sh && chmod +x deb9.sh && ./deb9.sh
+  ```
+
 Here are the full features of this script.
 
     OpenSSH, port : 22, 444
     Dropbear, port : 80, 143
-    SSL, port : 443
+    STunnel, port : 443
     Squid3, port : 8000, 8080 (limit to IP SSH)
     Badvpn : badvpn-udpgw port 7200
     Webmin : http://IPVPS:10000/
+    
     Script menu: displays a list of available commands
     Usernew script: create an SSH account
     Script trial: create a trial account
